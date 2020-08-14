@@ -1,8 +1,8 @@
 import React from 'react';
 import "../CSS/home.css"
-import Logo from '../Pages/logo.svg'
-import Placeholdertop from '../Pages/Placeholdertop.svg'
-import Placeholder from '../Pages/rectangle.svg'
+import Logo from '../Images/logo.svg'
+import Placeholdertop from '../Images/Placeholdertop.svg'
+import Placeholder from '../Images/rectangle.svg'
 
 const homepage = () => {
     return ( <React.Fragment>
