@@ -1,0 +1,25 @@
+{
+  "name": "indoeducate",
+  "version": "1.0.0",
+  "description": "Indoeducate is a place for students to come to when they want to search for online resources",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sriramselvakumar/Indoeducate.git"
+  },
+  "author": "Sriram Selvakumar, Aayushi Tulasyan, Aanya P, Vishnudev Poil",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sriramselvakumar/Indoeducate/issues"
+  },
+  "homepage": "https://github.com/sriramselvakumar/Indoeducate#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.29"
+  }
+}
