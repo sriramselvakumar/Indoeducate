@@ -1,0 +1,157 @@
+.wrapper {
+    text-align: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 7px 15px;
+    font-size: 15px;
+    line-height: 1.428571429;
+    border-radius: 4px;
+    margin-left: -5px;
+  }
+  
+  .btn-selector {
+    color: #ffffff;
+    background-color: #ffffff;
+    border-color: #ffffff;
+  }
+  
+  .btn-selector:hover,
+  .btn-selector:focus,
+  .btn-selector:active,
+  .btn-selector.active {
+    color: #ffffff;
+    background-color: #ffffff;
+    border-color: #ffffff;
+  }
+  
+  .btn-group .btn:focus {
+    outline: none;
+  }
+  
+  .btn-group .btn:not(:first-child):not(:last-child) {
+    border-radius: 0;
+  }
+  
+  .btn-group .btn:first-child:not(:last-child) {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .btn-group .btn:last-child:not(:first-child) {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+  
+  
+  .form {
+    margin: 40px auto;
+    margin-top: 60px;
+    padding: 10px 30px 35px;
+    display: block;
+    width: 38%;
+    background-color: #ffffff;
+    border-radius: 9px 9px 0px 0px;
+    box-shadow: 0 0 10px 0 #000;
+  }
+  
+  .form-title {
+    color: #2C0EA7;
+    font-size: 40px;
+    margin: 10px 0 20px 0;
+    text-align: center;
+  }
+  
+  .form input,
+  .form button,
+  .form {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    display: block;
+    background: rgba(44, 14, 167, 0.1);
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    font-size: 22px;
+    height: 50px;
+    padding: 4px 6px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"],
+  label {
+    display: inline-block;
+    float: left;
+  }
+  
+  input:focus {
+    outline: none;
+    border: 1px solid #3d047e;
+  }
+  
+  .input-std {
+    width: 95.5%;
+    color: #ffffff;
+  }
+  
+  .input-half {
+    width: 45.9%;
+    float: left;
+  }
+  
+  .input-quarter {
+    width: 21%;
+    float: left;
+  }
+  
+  .btn-submit {
+    width: 80%;
+    font-size: 1.5em;
+    padding: 11px 19px;
+    cursor: pointer;
+    color: #ffffff;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  
+  .btn-submit:focus {
+    outline: none;
+  }
+  
+  #sign-up {
+    background: #2C0EA7;
+    border-radius: 5px;
+  }
+
+  .logo-container2{
+      padding: 20px;
+      margin-left: 32%;
+
+  }
+
+  .formsubtitle {
+    color: #2C0EA7;
+    font-size: 15px;
+    margin: 10px 0 20px 0;
+    text-align: center;
+  }
+  
+  .formlast {
+    color: #2C0EA7;
+    font-size: 10px;
+    margin: 10px 0 20px 0;
+    text-align: center;
+  }
