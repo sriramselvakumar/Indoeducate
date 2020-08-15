@@ -7,6 +7,8 @@ import SignUp from "./Pages/Signup";
 import Login from "./Pages/Login";
 import Options from "./Pages/Options";
 import Resources from "./Pages/resources";
+import Upload from "./Pages/Upload";
+
 
 
 
@@ -20,6 +22,7 @@ function App() {
           <Route path="/login" component={Login} />
           <Route path="/option" component={Options} />
           <Route path="/resources" component={Resources} />
+          <Route path="/upload" component={Upload} />
         </Switch>
       </Router>
     </React.Fragment>
