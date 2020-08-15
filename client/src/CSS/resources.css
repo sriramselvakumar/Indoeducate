@@ -142,6 +142,16 @@ button{
   margin-top: 1%;
 }
 
+.listItem-resource-down{
+    border-radius: 9px;
+    background: rgba(30, 173, 254, 0.1);
+    padding: 20px; 
+    width: 95%;
+    height: 70%;  
+    margin-left: 3%;
+    margin-top: 1%;
+  }
+
 ul{
     list-style-type: none;
 }
@@ -185,4 +195,28 @@ a{
     color: #161178;
     margin-left: 0;
     margin-top: 0.6em;
+}
+
+
+.resourcetitle-down{
+    color: #1EADFE;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5.5%;
+    margin-top: 0.25em;
+}
+
+
+.linkSource-down{
+    float: right;
+    margin-right: 16.1%;
+    background: #1EADFE;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 2px;
+    border: none;
 }

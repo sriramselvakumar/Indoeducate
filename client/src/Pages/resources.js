@@ -38,13 +38,13 @@ const Resources = () => {
                         </div>
                     </div>
                     </li>
-                    <li class="listItem-resource"><div class="row">
+                    <li class="listItem-resource-down"><div class="row">
                         <div class="column">
-                            <p class="resourcetitle">Grade 11 Biology Textbook</p>
+                            <p class="resourcetitle-down">Grade 11 Biology Textbook</p>
                         </div>
                         <div class="column">
-                            <button class="linkSource">
-                                <a href="#">Open Resource</a>
+                            <button class="linkSource-down">
+                                <a href="#">Download Resource</a>
                             </button>
                         </div>
                     </div>
