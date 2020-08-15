@@ -32,7 +32,9 @@ const homepage = () => {
           </ul>
         </nav>
         <div class="log">
-          <button class="logIn"> Log In</button>
+          <Link to="/login">
+            <button class="logIn"> Log In</button>
+          </Link>
           <div class="vl"></div>
           <Link to="/signup">
             <button class="getStarted">Get Started</button>
