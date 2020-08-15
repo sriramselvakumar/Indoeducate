@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useDropzone } from "react-dropzone";
 import "../CSS/upload.css"
 import Logo from '../Images/logo.svg'
 import Logouploadpage from '../Images/logo-uploadpage.svg'
@@ -26,7 +27,10 @@ const Upload = () => {
             <br></br><br></br><br></br>
             <section class="dragDrop-uploadpage">
                 <div id="content-uploadpage">
-                    <h3 class="instruct-uploadpage">Drag and drop Resource files or <a class="folder-uploadpage" href="#">click here</a> to be taken to folder.</h3>
+                <label class="file-up" for="file"></label>
+                <input type="file" id="file" name="file" multiple/>
+                <div><button class="uploadbtn">Upload</button></div>
+
                 </div>
                 <div class="logo-container-uploadpage">
                     <img class="svg" src={Logouploadpage} alt="Logo" />
@@ -48,5 +52,7 @@ const Upload = () => {
         </div>
     </React.Fragment>);
 }
+
+
 
 export default Upload;

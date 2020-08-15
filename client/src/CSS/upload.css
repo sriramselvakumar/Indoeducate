@@ -137,10 +137,6 @@
      margin-top: 0.6em;
  } 
 
- .folder-uploadpage{
-     text-decoration: underline;
-     color: #0038FF;
- }
 
 
  #content-uploadpage{
@@ -153,9 +149,46 @@
     position: relative;
  }
 
- .instruct-uploadpage{
+ .file-up{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    
+    color: #161178;
      margin-top: 7%;
+     margin-left: 30%;
      text-align: center;
+ }
+
+ #file{
+    margin-top: 6%;
+    margin-left: 76px;
+    border: none;
+    color: #ffffff;
+    padding: 12px 38px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    background: #3A1D8D;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    cursor: pointer;
+ }
+
+ .uploadbtn{
+    width: 12%;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #1D4EFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 44%;
+    margin-top: 2%;
  }
 
 .logo-container-uploadpage{
