@@ -18,6 +18,7 @@ const SignUp = () => {
     const res = await http.post(urls.registerUser, { email, password });
     if (res.data !== "User already exists") {
       localStorage.setItem("token", res.data);
+      window.location = "/option";
     }
   };
   return (
