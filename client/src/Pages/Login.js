@@ -11,6 +11,7 @@ const SignUp = () => {
     const res = await http.post(urls.loginUser, { email, password });
     if (res.data !== "error") {
       localStorage.setItem("token", res.data);
+      window.location = "/option";
       return console.log("redirect succeeded");
     }
     return console.log("destruction");
