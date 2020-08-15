@@ -14,7 +14,7 @@
  }
 
  
-  header{
+  .header-uploadpage{
      display: flex;
      width: 94%;
      height: 10vh;
@@ -22,7 +22,7 @@
      align-items: center;
  }
 
-  .logo-container,.nav-links{
+  .logo-container,.nav-links-uploadpage{
      display: flex;
  }
 
@@ -38,15 +38,15 @@
  }
 
  
-  nav{
+  .nav-uploadpage{
      flex: 3;
  }
- .nav-links{
+ .nav-links-uploadpage{
      justify-content: space-around;
      list-style: none;
      vertical-align: middle;
  }
- .nav-link{
+ .nav-link-uploadpage{
      color: #161178;
      font-size: 18px;
      font-weight: bold;
@@ -54,21 +54,21 @@
      margin-right: 10px;
  }
 
-  .linetop{
+  .linetop-uploadpage{
      border: 1px solid #A9A9A9;
      width: 100%;
  }
 
-  .linefoot{
+  .linefoot-uploadpage{
      position: absolute;
      border: 1px solid #A9A9A9;
      width: 100%;
-     top: 100%;
+     top: 107%;
  }
 
-  footer{
+  .footer-uploadpage{
      position: absolute;
-     top: 101%;;
+     top: 110%;;
      background-color: white;
      width: 100%;
      margin: auto;
@@ -77,7 +77,7 @@
      justify-content: space-between;
  }
 
-      .contactus-links{
+      .contactus-links-uploadpage{
      display: flex;
      flex: 4;
      list-style: none;
@@ -85,7 +85,7 @@
      justify-content: space-between;
  }
 
-  .reserved{
+  .reserved-uploadpage{
      flex: 6;
      font-weight: normal;
      font-size: 16px;
@@ -95,14 +95,14 @@
      padding: 20px;
  }
 
-  .logofoot{
+  .logofoot-uploadpage{
      flex: 14;
      margin-right: 300px;
      padding: 20px;
 
   }
 
-  .upload{
+  .upload-uploadpage{
      margin-left: 30px;
      border: none;
      color: #ffffff;
@@ -117,12 +117,12 @@
      cursor: pointer;
  }
 
-  .subTitle {
+  .subTitle-uploadpage {
      margin-left: 8%;
      margin-top: 5%;
  }
 
- .col {
+ .col-uploadpage {
      color: #8C63FF;
  }
 
@@ -131,24 +131,19 @@
      color: white;
  }
 
-  .nonButton{
+  .nonButton-uploadpage{
      color: #161178;
      margin-left: 0;
      margin-top: 0.6em;
  } 
 
- .folder{
+ .folder-uploadpage{
      text-decoration: underline;
      color: #0038FF;
  }
 
- h3{
-    font-size: 22px;
-    font-weight: bold;
-    color: #161178;
- }
 
- #content{
+ #content-uploadpage{
     border-radius: 25px;
     background-image: linear-gradient( rgba(140,99,255,0.42), rgba(140,99,255,1));
     padding: 20px; 
@@ -158,18 +153,18 @@
     position: relative;
  }
 
- .instruct{
+ .instruct-uploadpage{
      margin-top: 7%;
      text-align: center;
  }
 
-.logo-container2{
+.logo-container-uploadpage{
     position: absolute;
-    top: 55%;
-    left: 13%;
+    top: 65%;
+    left: 40%;
 }
 
-.onlineSources{
+.onlineSources-uploadpage{
     margin-top: 4%;
     border-radius: 4px;
     background-color: #F4F4F4;
@@ -179,9 +174,9 @@
     margin-left: 3%; 
     position: relative;
     border: none;
-    font-size: 18px;
-    color: #161178;
+    font-size: 22px;
     font-weight: bold;
+    color: #161178;
 }
 
 ::placeholder{

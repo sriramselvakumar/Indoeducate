@@ -1,50 +1,51 @@
 import React, { useState } from "react";
 import "../CSS/upload.css"
 import Logo from '../Images/logo.svg'
+import Logouploadpage from '../Images/logo-uploadpage.svg'
 
 
 const Upload = () => {
     return (<React.Fragment>
-        <header>
+        <div class="header-uploadpage">
             <div class="logo-container">
                 <img src={Logo} alt="Logo" />
             </div>
-            <nav>
-                <ul class="nav-links">
-                    <li><button class="upload"><a href="#">Upload</a></button></li>
-                    <li><a class="nav-link" href="#"><p class="nonButton">View</p></a></li>
-                    <li><a class="nav-link" href="#"><p class="nonButton">Contact Us</p></a></li>
+            <div class="nav-uploadpage">
+                <ul class="nav-links-uploadpage">
+                    <li><button class="upload-uploadpage"><a href="#">Upload</a></button></li>
+                    <li><a class="nav-link-uploadpage" href="#"><p class="nonButton-uploadpage">View</p></a></li>
+                    <li><a class="nav-link-uploadpage" href="#"><p class="nonButton-uploadpage">Contact Us</p></a></li>
                 </ul>
-            </nav>
-        </header>
-        <hr class="linetop" />
-        <section class="content">
-            <section class="title">
-                <h3 class="subTitle"><span class='col'>Upload</span> any resources that other users might require</h3>
+            </div>
+        </div>
+        <hr class="linetop-uploadpage" />
+        <section class="content-uploadpage">
+            <section class="title-uploadpage">
+                <h3 class="subTitle-uploadpage"><span class='col-uploadpage'>Upload</span> any resources that other users might require</h3>
             </section>
             <br></br><br></br><br></br>
-            <section class="dragDrop">
-                <div id="content">
-                    <h3 class="instruct">Drag and drop Resource files or <a class="folder" href="#">click here</a> to be taken to folder.</h3>
+            <section class="dragDrop-uploadpage">
+                <div id="content-uploadpage">
+                    <h3 class="instruct-uploadpage">Drag and drop Resource files or <a class="folder-uploadpage" href="#">click here</a> to be taken to folder.</h3>
                 </div>
-                <div class="logo-container2">
-                    <img class="svg" src={Logo} alt="Logo" />
+                <div class="logo-container-uploadpage">
+                    <img class="svg" src={Logouploadpage} alt="Logo" />
                 </div>
             </section>
-            <section class="links">
+            <section class="links-uploadpage">
                 <form>
-                    <input class="onlineSources" placeholder="Enter link to video resources or to online documents...."></input>
+                    <input class="onlineSources-uploadpage" placeholder="Enter link to video resources or to online documents...."></input>
                 </form>
             </section>
         </section>
 
-        <hr class="linefoot" />
+        <hr class="linefoot-uploadpage" />
 
-        <footer>
+        <div class="footer-uploadpage">
 
-            <h4 class="reserved">© 2020 Indo-Edu, Inc. All rights reserved.</h4>
-            <img class="logofoot" src={Logo} alt="Logo" />
-        </footer>
+            <h4 class="reserved-uploadpage">© 2020 Indo-Edu, Inc. All rights reserved.</h4>
+            <img class="logofoot-uploadpage" src={Logo} alt="Logo" />
+        </div>
     </React.Fragment>);
 }
 
