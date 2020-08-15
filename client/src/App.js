@@ -6,6 +6,8 @@ import Home from "./Pages/home";
 import SignUp from "./Pages/Signup";
 import Login from "./Pages/Login";
 import Options from "./Pages/Options";
+import Resources from "./Pages/resources";
+
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
           <Route path="/signup" component={SignUp} />
           <Route path="/login" component={Login} />
           <Route path="/option" component={Options} />
+          <Route path="/resources" component={Resources} />
         </Switch>
       </Router>
     </React.Fragment>
