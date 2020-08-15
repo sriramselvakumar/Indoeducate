@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Pages/home";
 import SignUp from "./Pages/Signup";
 import Login from "./Pages/Login";
+import Resources from "./Pages/resources";
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/signup" component={SignUp} />
           <Route path="/login" component={Login}/>
+          <Route path="/resources" component={Resources}/>
+          <Route path="/upload" component={Upload}/>
         </Switch>
       </Router>
     </React.Fragment>
