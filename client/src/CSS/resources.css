@@ -14,7 +14,7 @@ button{
 }
     
 
-header{
+.headerresource{
     display: flex;
     width: 94%;
     height: 10vh;
@@ -22,11 +22,11 @@ header{
     align-items: center;
 }
 
-.logo-container,.nav-links{
+.logo-container-resource,.nav-links-resource{
     display: flex;
 }
 
-.logo-container{
+.logo-container-resource{
     flex: 3;
 }
 .logo{
@@ -38,15 +38,15 @@ header{
 }
 
 
-nav{
+.nav-resource{
     flex: 3;
 }
-.nav-links{
+.nav-links-resource{
     justify-content: space-around;
     list-style: none;
     vertical-align: middle;
 }
-.nav-link{
+.nav-links-resource{
     color: #161178;
     font-size: 18px;
     font-weight: bold;
@@ -54,21 +54,21 @@ nav{
     margin-right: 10px;
 }
 
-.linetop{
+.linetop-resource{
     border: 1px solid #A9A9A9;
     width: 100%;
 }
 
-.linefoot{
+.linefoot-resource{
     position: absolute;
     border: 1px solid #A9A9A9;
     width: 100%;
-    top: 100%;
+    top: 104%;
 }
 
-footer{
+.footer-resource{
     position: absolute;
-    top: 101%;;
+    top: 106%;;
     background-color: white;
     width: 100%;
     margin: auto;
@@ -85,7 +85,7 @@ footer{
     justify-content: space-between;
 }
 
-.reserved{
+.reserved-resource{
     flex: 6;
     font-weight: normal;
     font-size: 16px;
@@ -95,14 +95,14 @@ footer{
     padding: 20px;
 }
 
-.logofoot{
+.logofoot-resource{
     flex: 14;
     margin-right: 300px;
     padding: 20px;
 
 }
 
-.view{
+.view-resource{
     margin-left: 30px;
     border: none;
     color: #ffffff;
@@ -117,7 +117,7 @@ footer{
     cursor: pointer;
 }
 
-.recentUpload{
+.recentUpload-resource{
     font-size: 36px;
     font-weight: bold;
     color: #161178;
@@ -125,14 +125,14 @@ footer{
     margin-top: 2%;
 }
 
-.subTitle {
+.subTitle-resource{
     font-size: 18px;
     font-weight: bold;
     color: #161178;
     margin-left: 4.3%;
 }
 
-.listItem{
+.listItem-resource{
   border-radius: 9px;
   background: #F4F0FF;
   padding: 20px; 
@@ -146,7 +146,7 @@ ul{
     list-style-type: none;
 }
 
-p{
+.resourcetitle{
     color: #8C63FF;
     font-size: 18px;
     font-weight: bold;
@@ -181,7 +181,7 @@ a{
     color: white;
 }
 
-.nonButton{
+.nonButton-resource{
     color: #161178;
     margin-left: 0;
     margin-top: 0.6em;
