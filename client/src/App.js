@@ -17,7 +17,6 @@ function App() {
           <Route path="/signup" component={SignUp} />
           <Route path="/login" component={Login}/>
           <Route path="/resources" component={Resources}/>
-          <Route path="/upload" component={Upload}/>
         </Switch>
       </Router>
     </React.Fragment>
