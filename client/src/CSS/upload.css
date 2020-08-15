@@ -1,0 +1,187 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+
+  body{
+     font-family: 'DM Sans', sans-serif;
+     background-color: #FFFEFE;
+ }
+
+  button{
+     font-family: 'DM Sans', sans-serif; 
+ }
+
+ 
+  .header-uploadpage{
+     display: flex;
+     width: 94%;
+     height: 10vh;
+     margin: auto;
+     align-items: center;
+ }
+
+  .logo-container,.nav-links-uploadpage{
+     display: flex;
+ }
+
+  .logo-container{
+     flex: 3;
+ }
+ .logo{
+     color: #161178;
+     font-size: 25px;
+     font-weight: 800;
+     margin: 5px;
+     cursor: pointer;
+ }
+
+ 
+  .nav-uploadpage{
+     flex: 3;
+ }
+ .nav-links-uploadpage{
+     justify-content: space-around;
+     list-style: none;
+     vertical-align: middle;
+ }
+ .nav-link-uploadpage{
+     color: #161178;
+     font-size: 18px;
+     font-weight: bold;
+     text-decoration: none;
+     margin-right: 10px;
+ }
+
+  .linetop-uploadpage{
+     border: 1px solid #A9A9A9;
+     width: 100%;
+ }
+
+  .linefoot-uploadpage{
+     position: absolute;
+     border: 1px solid #A9A9A9;
+     width: 100%;
+     top: 107%;
+ }
+
+  .footer-uploadpage{
+     position: absolute;
+     top: 110%;;
+     background-color: white;
+     width: 100%;
+     margin: auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+      .contactus-links-uploadpage{
+     display: flex;
+     flex: 4;
+     list-style: none;
+     text-decoration: none;
+     justify-content: space-between;
+ }
+
+  .reserved-uploadpage{
+     flex: 6;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 21px;
+     color: #161178;
+     margin-left: 3%;
+     padding: 20px;
+ }
+
+  .logofoot-uploadpage{
+     flex: 14;
+     margin-right: 300px;
+     padding: 20px;
+
+  }
+
+  .upload-uploadpage{
+     margin-left: 30px;
+     border: none;
+     color: #ffffff;
+     padding: 12px 38px;
+     text-align: center;
+     text-decoration: none;
+     font-size: 16px;
+     font-weight: bold;
+     background: #3A1D8D;
+     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+     border-radius: 18px;
+     cursor: pointer;
+ }
+
+  .subTitle-uploadpage {
+     margin-left: 8%;
+     margin-top: 5%;
+ }
+
+ .col-uploadpage {
+     color: #8C63FF;
+ }
+
+  a{
+     text-decoration: none;
+     color: white;
+ }
+
+  .nonButton-uploadpage{
+     color: #161178;
+     margin-left: 0;
+     margin-top: 0.6em;
+ } 
+
+ .folder-uploadpage{
+     text-decoration: underline;
+     color: #0038FF;
+ }
+
+
+ #content-uploadpage{
+    border-radius: 25px;
+    background-image: linear-gradient( rgba(140,99,255,0.42), rgba(140,99,255,1));
+    padding: 20px; 
+    width: 90%;
+    height: 400px;
+    margin-left: 5%; 
+    position: relative;
+ }
+
+ .instruct-uploadpage{
+     margin-top: 7%;
+     text-align: center;
+ }
+
+.logo-container-uploadpage{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+}
+
+.onlineSources-uploadpage{
+    margin-top: 4%;
+    border-radius: 4px;
+    background-color: #F4F4F4;
+    padding: 20px; 
+    width: 95%;
+    height: 60px;
+    margin-left: 3%; 
+    position: relative;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #161178;
+}
+
+::placeholder{
+    color: #161178;
+    font-size: 18px;
+    font-weight: bold;
+    overflow: visible;
+}   
