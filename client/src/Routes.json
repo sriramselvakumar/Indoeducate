@@ -1,4 +1,9 @@
 {
+  "baseURL": "http://localhost:3000",
   "registerUser": "http://localhost:8000/api/registration/user",
-  "loginUser": "http://localhost:8000/api/login/"
+  "loginUser": "http://localhost:8000/api/login/",
+  "postResource": "http://localhost:8000/api/resource/",
+  "getResources": "http://localhost:8000/api/resource/getAll",
+  "getFile": "http://localhost:8000/uploads/",
+  "postwoFile": "http://localhost:8000/api/resource/wofile"
 }
