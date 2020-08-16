@@ -1,0 +1,40 @@
+.card-header {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.btn{
+    background-color: #ffffff;
+    color : black;
+   
+}
+
+.btn {
+    font-family: 'DM Sans',
+    sans-serif;
+    width: 220px;
+}
+
+.card-title{
+    font-family: 'DM Sans',
+    sans-serif;
+    text-align : center;
+    
+
+}
+
+.card-body{
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+
+.card-text{
+    padding-top: 20px;
+}
+
+.main{
+    max-width: 18rem;
+    margin-left: 70px;
+    margin-top: 30px;
+}
