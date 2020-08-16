@@ -10,7 +10,7 @@ const homepage = () => {
     <React.Fragment>
       <header>
         <div class="logo-container">
-          <img src={Logo} alt="Logo" />
+        <a href="/"><img src={Logo} alt="Logo" /></a>
         </div>
         <nav>
           <ul class="nav-links">

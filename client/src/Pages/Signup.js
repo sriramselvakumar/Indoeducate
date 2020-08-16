@@ -26,7 +26,7 @@ const SignUp = () => {
       <div class="wrapper"></div>
       <div class="form" id="sign-up-form">
         <div class="logo-container2">
-          <img src={Logo} alt="Logo" />
+        <a href="/"><img src={Logo} alt="Logo" /></a>
         </div>
         <h2 class="form-title">Get started with Indo-Edu</h2>
         <h6 class="formsubtitle">Enter your information below</h6>
@@ -62,7 +62,7 @@ const SignUp = () => {
         >
           Get Started Today
         </button>
-        <h6 class="formlast">Already Have an Account? Log In Here.</h6>
+        <a href="/login"><h6 class="formlast">Already Have an Account? Log In Here.</h6></a>
       </div>
     </React.Fragment>
   );

@@ -9,7 +9,7 @@ const Options = () => {
     return ( <React.Fragment>
 <div class="headeroptions">
             <div class="logo-container-options">
-                <img src={Logo} alt="Logo" />
+            <a href="/"><img src={Logo} alt="Logo" /></a>
             </div>
             <div class="nav-options">
                 <ul class="nav-links-options">

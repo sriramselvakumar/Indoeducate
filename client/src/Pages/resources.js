@@ -7,13 +7,13 @@ const Resources = () => {
     return (<React.Fragment>
         <div class="headerresource">
             <div class="logo-container-resource">
-                <img src={Logo} alt="Logo" />
+            <a href="/"><img src={Logo} alt="Logo" /></a>
             </div>
             <div class="nav-resource">
                 <ul class="nav-links-resource">
-                    <li><a class="nav-link-resource" href="#"><p class="nonButton-resource">Upload</p></a></li>
-                    <li><button class="view-resource"><a href="#">View</a></button></li>
-                    <li><a class="nav-link-resource" href="#"><p class="nonButton-resource">Contact Us</p></a></li>
+                    <li><a class="nav-link-resource" href="/upload"><p class="nonButton-resource">Upload</p></a></li>
+                    <li><button class="view-resource"><a href="/resources">View</a></button></li>
+                    <li><a class="nav-link-resource" href="/"><p class="nonButton-resource">Home</p></a></li>
                 </ul>
             </div>
         </div>

@@ -9,13 +9,13 @@ const Upload = () => {
     return (<React.Fragment>
         <div class="header-uploadpage">
             <div class="logo-container">
-                <img src={Logo} alt="Logo" />
+            <a href="/"><img src={Logo} alt="Logo" /></a>
             </div>
             <div class="nav-uploadpage">
                 <ul class="nav-links-uploadpage">
-                    <li><button class="upload-uploadpage"><a href="#">Upload</a></button></li>
-                    <li><a class="nav-link-uploadpage" href="#"><p class="nonButton-uploadpage">View</p></a></li>
-                    <li><a class="nav-link-uploadpage" href="#"><p class="nonButton-uploadpage">Contact Us</p></a></li>
+                    <li><button class="upload-uploadpage"><a href="/upload">Upload</a></button></li>
+                    <li><a class="nav-link-uploadpage" href="/resources"><p class="nonButton-uploadpage">View</p></a></li>
+                    <li><a class="nav-link-uploadpage" href="/"><p class="nonButton-uploadpage">Home</p></a></li>
                 </ul>
             </div>
         </div>
