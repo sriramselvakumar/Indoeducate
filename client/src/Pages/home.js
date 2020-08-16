@@ -51,10 +51,7 @@ const homepage = () => {
           <span style={{ color: "#8C63FF" }}>get things done.</span>
         </h1>
         <h1 class="bodyText">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam
-          nulla nisi id maxime rem non molestiae et quam consequuntur eaque.
-          Amet suscipit doloribus quae enim commodi veniam. Id, laborum
-          explicabo!
+          Indo-Edu is a site that allow for quick and easy transfer of files and educational videos. It is a site that allows student not waste time yet still receive the best resources.
         </h1>
       </section>
       <img class="topimg" src={Placeholdertop} />
